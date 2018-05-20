@@ -1,7 +1,7 @@
 /*css document*/
 body,div,span,a,img,ul,li,p{
-margin:0;
-padding:0;
+margin:0 auto;
+padding:0 auto;
 }
 body{font-family:黑体;}
 
@@ -20,7 +20,7 @@ width:100px;
 }
 .nav{
 height:60px;
-width:100%;
+width:100px;
 background-color:#006986;
 }
 .nav li{
@@ -44,22 +44,23 @@ border-radius:5px;
 height:38px;
 
 }
-content1{height:450px;
-width:100%;
-background-color:#ffffff;}
-content1  left1{
+.content1{
+    height:450px;
+    width:100%;
+    background-color:#ffffff;}
+.content1  left1{
     float:left;
     width:453px;
     height:48px;
 
     margin-left:28px;
 }
-span notice{
+.span notice{
     font-size:25px;
     color:#0384a8;
 
 }
-span more{
+.span more{
 font-size:25px;
 color:#0384a8;
 float:right;
@@ -67,7 +68,7 @@ margin-top:15px；
 
 }
 
-line1{
+.line1{
 width:451px;
 height:5px;
 background:#0384a8;
@@ -84,31 +85,31 @@ raw1 ul li{
     margin-top:30px;
 }
 
-raw1 ul li a{
+.raw1 ul li a{
     font-size:20px;
 }
-col1{color:#505252;}
-col2{
+.col1{color:#505252;}
+.col2{
     color:#505252;
     text-decoration:none;
 
 }
-raw1 ul li span{margin-left:51px;}
+.raw1 ul li span{margin-left:51px;}
 
-content1 right1{
+.content1 right1{
     float:right;
     width:890px;
     height:436px;
 }
 
-content1 right1 line2{
+.content1 right1 line2{
     width:890px;
     height:5px;
     background:#0384a8;
     margin-top:9px;
 
 }
-right-S{
+.right-S{
     float:left;
     width:470px;
     height:311px;
@@ -119,12 +120,12 @@ right-S{
 
 }
 
-right-S p{
+.right-S p{
     font-style:14px;
     margin-top:24px;
     color:#000000;
 }
-right-S2 {
+.right-S2 {
     float:right;
     width:470px;
     height:311px;
@@ -132,55 +133,55 @@ right-S2 {
     margin-top:10px;
     margin-left:-20px;
 }
-right-S2 a p{
+.right-S2 a p{
 text-indent:3em;
 margin-top:25px;
 margin-bottom:16px;
 
 }
-right-S2 ul{
+.right-S2 ul{
     margin-left:15px;
     font-size:20px;
     color: #0384a8
 
 }
-right-S2 p{
+.right-S2 p{
     text-indent:2em;
     margin-bottom:20px;
 
 }
-right-S2 ul li{margin-bottom:30px;}
+.right-S2 ul li{margin-bottom:30px;}
 
-content2{
+.content2{
     height:405px;
     widows: 100%;
     background:#ffffff;
 
 }
-content2 left2{
-margin-left:20px;
-float:left；
+.content2 left2{
+     margin-left:20px;
+     float:left；
 }
-content2 left2 line3{
+.content2 left2 line3{
     width:571px;
     height:5px;
     background:#0384a8;
     margin-top:7px;
 
 }
-left2 ul{
+.left2 ul{
 margin-left:15px;
 margin-top:5px;
 font-size:20px;
 color:#0384a8;
 
 }
-left2 ul li a{
+.left2 ul li a{
 text-decoration:none;
 color:#055252;
 }
 
-right2{
+.right2{
 width:180px;
 height:360px;
 border:1px solid#000000;
@@ -189,28 +190,28 @@ margin-left:20px;
 text-align:center;
 }
 
-right2 p{
+.right2 p{
     font-style:30px;
     margin-top:20px;
     color:#0384a8;
 
 }
 
-right2 line4{
+.right2 line4{
 width:100%;
 height:5px;
 background:#0384a8;
 margin-top:9px;
 
 }
-footer{
+.footer{
     padding-top:17px;
     padding-bottom:8px;
 
 }
-last{padding-bottom:16px;}
+.last{padding-bottom:16px;}
 
-footer p{padding-bottom:8px;}
+.footer p{padding-bottom:8px;}
 
 
 
